@@ -1,36 +1,20 @@
-body{
-	background-image: url(21.jpg);
-}
-.center{
-	position: relative;
-	height: 500px;
-}
 .container{
-	position: absolute;
-  	top: 50%;
-  	margin-top: -70px;
-	/*margin: 0 auto;*/
+	position: relative;
+	margin: 0 auto;
 	width: 425px;
 	height: 420px;
-<<<<<<< HEAD:Form/style.css
-	background-color: #f9d98d;
-	/*background-size: cover;*/
-	
-}
-.header{
-=======
 	background-image: url(../psd-blue-login-box.png);
 	background-size: cover;
 	box-shadow: 2.5px 4.3px 180px rgba(0, 0, 0, 0.75);
 }
 .header{
 	position: relative;
->>>>>>> fb27f611cde449b62e6470062025a9a3f4ded8bb:Form/css/style.css
 	width: 300px;
 	z-index: 10;
 	padding-top: 47px;
 	padding-left:  45px;
-	color: #553000;
+	color: #ebebeb;
+
 }
 h1{
 	margin: 0;
@@ -38,16 +22,12 @@ h1{
 }
 p{
 	font-size: 12px;
-<<<<<<< HEAD:Form/style.css
-	color: #553000;
-=======
 	color: #ebebeb;
->>>>>>> fb27f611cde449b62e6470062025a9a3f4ded8bb:Form/css/style.css
 	margin: 0;
 }
 span{
 	font-size: 12px;
-	color: #553000;
+	color: #ebebeb;
 }
 .mail{
 	margin: 12px 0 12px 89px;
@@ -62,17 +42,6 @@ span{
 .check{
 	margin: 10px 0 0 142px;
 	font-size: 11px;
-<<<<<<< HEAD:Form/style.css
-	color: #553000;
-}
-a{
-	color: #553000;
-	margin-left: 10px;
-}
-input.color{
-	background-color: #553000;
-	border-color: #331d00;
-=======
 	color: #9a9a9a;
 }
 a{
@@ -80,7 +49,6 @@ a{
 }
 input.color{
 	background-color: #1e4f8a;
->>>>>>> fb27f611cde449b62e6470062025a9a3f4ded8bb:Form/css/style.css
 	color: #fff;
 	height: 28px;
 }
@@ -88,21 +56,6 @@ input.color{
 	width: 103px;
 	height: 42px;
 	margin: 14px 0 0 135px;
-<<<<<<< HEAD:Form/style.css
-	background-color: #553000;
-	border-color: #331d00;
-	border-radius: 10px;
-	color: #fff;
-}
-.container:hover{
-	-moz-transform: translate(50%, 0px);
-	-webkit-transform: translate(50%, 0px);
-	-o-transform: translate(50%, 0px);
-	-ms-transform: translate(50%, 0px);
-	transform: translate(50%, 0px);
-	transition: all 8s ease-in-out;
-};
-=======
 	background-color: #b7b7b7;
 	border-radius: 10px;
 	color: #fff;
@@ -125,4 +78,3 @@ img{
 	margin-left: 140px;
 	color:yellowgreen;
 }
->>>>>>> fb27f611cde449b62e6470062025a9a3f4ded8bb:Form/css/style.css

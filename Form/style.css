@@ -1,21 +1,27 @@
-.container{
+body{
+	background-image: url(21.jpg);
+}
+.center{
 	position: relative;
-	margin: 0 auto;
+	height: 500px;
+}
+.container{
+	position: absolute;
+  	top: 50%;
+  	margin-top: -70px;
+	/*margin: 0 auto;*/
 	width: 425px;
-	height: 350px;
-	background-size: cover;
-	-webkit-box-sizing: border-box;
-	-moz--box-sizing: border-box;
-	box-sizing: border-box;
-	box-shadow: 2.5px 4.3px 180px rgba(0, 0, 0, 0.75);
+	height: 420px;
+	background-color: #f9d98d;
+	/*background-size: cover;*/
+	
 }
 .header{
-	position: relative;
+	width: 300px;
 	z-index: 10;
 	padding-top: 47px;
 	padding-left:  45px;
-	color: #ebebeb;
-
+	color: #553000;
 }
 h1{
 	margin: 0;
@@ -23,11 +29,12 @@ h1{
 }
 p{
 	font-size: 12px;
-	color: #ebebeb;
+	color: #553000;
+	margin: 0;
 }
 span{
 	font-size: 12px;
-	color: #ebebeb;
+	color: #553000;
 }
 .mail{
 	margin: 41px 0 12px 89px;
@@ -38,21 +45,32 @@ span{
 .check{
 	margin: 10px 0 0 142px;
 	font-size: 11px;
-	color: #ebebeb;
+	color: #553000;
+}
+a{
+	color: #553000;
+	margin-left: 10px;
 }
 input.color{
-	background-color: #1e4f8a;
+	background-color: #553000;
+	border-color: #331d00;
+	color: #fff;
+	height: 28px;
 }
 input.button{
 	width: 103px;
 	height: 42px;
 	margin: 14px 0 0 135px;
-	background-color: #b7b7b7;
-	mask-image: linear-gradient(90deg, rgba(66, 126, 199, 1) 0%, rgba(66, 126, 199, 1) 16%, rgba(81, 142, 226, 1) 64%, rgba(81, 142, 226, 1) 100%);
+	background-color: #553000;
+	border-color: #331d00;
+	border-radius: 10px;
+	color: #fff;
 }
-img{
-	position: absolute;
-	width: 100%;
-	height: auto;
-	z-index: 2;
-}
+.container:hover{
+	-moz-transform: translate(50%, 0px);
+	-webkit-transform: translate(50%, 0px);
+	-o-transform: translate(50%, 0px);
+	-ms-transform: translate(50%, 0px);
+	transform: translate(50%, 0px);
+	transition: all 8s ease-in-out;
+};

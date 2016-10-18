@@ -12,11 +12,20 @@ body{
 	/*margin: 0 auto;*/
 	width: 425px;
 	height: 420px;
+<<<<<<< HEAD:Form/style.css
 	background-color: #f9d98d;
 	/*background-size: cover;*/
 	
 }
 .header{
+=======
+	background-image: url(../psd-blue-login-box.png);
+	background-size: cover;
+	box-shadow: 2.5px 4.3px 180px rgba(0, 0, 0, 0.75);
+}
+.header{
+	position: relative;
+>>>>>>> fb27f611cde449b62e6470062025a9a3f4ded8bb:Form/css/style.css
 	width: 300px;
 	z-index: 10;
 	padding-top: 47px;
@@ -29,7 +38,11 @@ h1{
 }
 p{
 	font-size: 12px;
+<<<<<<< HEAD:Form/style.css
 	color: #553000;
+=======
+	color: #ebebeb;
+>>>>>>> fb27f611cde449b62e6470062025a9a3f4ded8bb:Form/css/style.css
 	margin: 0;
 }
 span{
@@ -37,14 +50,19 @@ span{
 	color: #553000;
 }
 .mail{
-	margin: 41px 0 12px 89px;
+	margin: 12px 0 12px 89px;
 }
 .pass{
 	margin-left: 66px;
 }
+.phone{
+	margin-top: 12px;
+	margin-left: 60px;
+}
 .check{
 	margin: 10px 0 0 142px;
 	font-size: 11px;
+<<<<<<< HEAD:Form/style.css
 	color: #553000;
 }
 a{
@@ -54,13 +72,23 @@ a{
 input.color{
 	background-color: #553000;
 	border-color: #331d00;
+=======
+	color: #9a9a9a;
+}
+a{
+	color: #fff;
+}
+input.color{
+	background-color: #1e4f8a;
+>>>>>>> fb27f611cde449b62e6470062025a9a3f4ded8bb:Form/css/style.css
 	color: #fff;
 	height: 28px;
 }
-input.button{
+.button{
 	width: 103px;
 	height: 42px;
 	margin: 14px 0 0 135px;
+<<<<<<< HEAD:Form/style.css
 	background-color: #553000;
 	border-color: #331d00;
 	border-radius: 10px;
@@ -74,3 +102,27 @@ input.button{
 	transform: translate(50%, 0px);
 	transition: all 8s ease-in-out;
 };
+=======
+	background-color: #b7b7b7;
+	border-radius: 10px;
+	color: #fff;
+}
+img{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index:-1;
+}
+.fa.fa-circle {
+
+	font-size: 20px;
+	margin-left: 200px;
+	color:red;
+}
+.fa.fa-balance-scale {
+
+	font-size: 50px;
+	margin-left: 140px;
+	color:yellowgreen;
+}
+>>>>>>> fb27f611cde449b62e6470062025a9a3f4ded8bb:Form/css/style.css
